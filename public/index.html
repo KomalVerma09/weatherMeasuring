@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="card">
+        <form action="/gettask" method="get">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button><img src="./images/search.png" alt=""></button>
+            </div>
+        </form>
+        <div class="weather">
+            <div class="weatherContainer" style="display: flex; justify-content: flex-start;">
+                <div class="weatherTextContainer"  style="text-align: left;">
+                    <p class="weatherText">Weather</p>
+                    <p class="weatherType"></p>
+                    <p class="time"></p>
+                    <p class="date"></p>
+                </div>
+                <div class="img">
+                    <img src="" class="weatherIcon ">
+                </div>
+                <div></div>
+
+            </div>
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js">
+    </script>
+</body>
+</html>
